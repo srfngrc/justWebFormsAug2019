@@ -20,7 +20,7 @@
     <form runat="server">
 
         <div id="nav">
-        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSourceSRFN"></asp:Menu>
+        <asp:Menu ID="LeftNavigation" runat="server" DataSourceID="SiteMapDataSourceSRFN" IncludeStyleBlock="False"></asp:Menu>
             <asp:SiteMapDataSource ID="SiteMapDataSourceSRFN" runat="server" ShowStartingNode="False" />
         </div>
 
