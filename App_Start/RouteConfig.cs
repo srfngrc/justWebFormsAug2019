@@ -13,6 +13,7 @@ namespace WebFormsApplicationSERAFIN
             var settings = new FriendlyUrlSettings();
             settings.AutoRedirectMode = RedirectMode.Permanent;
             routes.EnableFriendlyUrls(settings);
+            //these 3 lines enables the route WITHOUT '.aspx' when working with WebForms
         }
     }
 }

@@ -38,8 +38,17 @@
             </Scripts>
         </asp:ScriptManager>
 
+        <div class="container">
+                <div>
+
+
+
+
+                    </div>
+                    <asp:Menu ID="Menu1" runat="server"></asp:Menu>
+                    <asp:TreeView ID="TreeView1" runat="server"></asp:TreeView>
+                   <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
         <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
