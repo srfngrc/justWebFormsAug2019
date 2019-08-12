@@ -13,24 +13,6 @@ namespace WebFormsApplicationSERAFIN {
     public partial class SiteMaster {
         
         /// <summary>
-        /// LeftNavigation control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Menu LeftNavigation;
-        
-        /// <summary>
-        /// SiteMapDataSourceSRFN control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SiteMapDataSource SiteMapDataSourceSRFN;
-        
-        /// <summary>
         /// MainContent control.
         /// </summary>
         /// <remarks>
