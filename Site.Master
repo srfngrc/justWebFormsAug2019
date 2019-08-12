@@ -45,8 +45,23 @@
 
 
                     </div>
-                    <asp:Menu ID="Menu1" runat="server"></asp:Menu>
-                    <asp:TreeView ID="TreeView1" runat="server"></asp:TreeView>
+                    <asp:Menu ID="Menu1" runat="server">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home srfn" Value="Home srfn"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/About.aspx" Text="About srfn" Value="About srfn">
+                                <asp:MenuItem NavigateUrl="~/ViewSwitcher.ascx" Text="Saitan" Value="Saitan"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Contact.aspx" Text="Contact" Value="Contact"></asp:MenuItem>
+                        </Items>
+                </asp:Menu>
+                    <asp:TreeView ID="TreeView1" runat="server">
+                        <Nodes>
+                            <asp:TreeNode NavigateUrl="~/Default.aspx" Text="menu a" Value="menu a"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/About.aspx" Text="about" Value="about">
+                                <asp:TreeNode NavigateUrl="~/ViewSwitcher.ascx" Text="view switcher!" Value="view switcher!"></asp:TreeNode>
+                            </asp:TreeNode>
+                        </Nodes>
+                </asp:TreeView>
                    <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
         <div class="navbar navbar-inverse navbar-fixed-top">
                 <div class="navbar-header">
